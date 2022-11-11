@@ -1,0 +1,243 @@
+:root{
+    --main-text-color:#212121;
+    --logo-blue-color: #2196F3;
+    --total-black:#000;
+    --gray-text-color: #757575;
+    --total-white:#fff;
+    --dark-section-color: #2F303A;
+    --light-section-color: #F5F4FA;
+    --footer-alpha-colot: rgba(255, 255, 255, 0.6);
+    --portfolio-button-color: #F5F4FA;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+    color: var(--main-text-color);
+}
+
+
+/* =======================*/
+.header {}
+
+.main-navigation {}
+
+.nav-elements {}
+
+.nav-part {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.nav-part:hover{
+    color: var(--logo-blue-color);
+}
+.nav-part:focus{
+    color: var(--logo-blue-color);
+}
+.contact-elements {}
+
+
+.contact {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--gray-text-color);
+}
+.contact:hover{
+    color: var(--logo-blue-color);
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.balck-logo {
+    color: var(--total-black);
+}
+.blue-logo{
+    color: var(--logo-blue-color);
+}
+.white-logo{
+    color: var(--total-white);
+}
+/* =======================*/
+
+.header-section{
+    background: var(--dark-section-color);
+}
+
+.main-header {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--total-white);
+}
+
+.main-header-button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background: var(--logo-blue-color);
+    color: var(--total-white);
+    border: none;
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    width: 216px;
+    height: 50px;
+    font-family: inherit;
+}
+.main-header-button:hover{
+    cursor: pointer;
+}
+/* =======================*/
+.hidden-header {
+    color: rgba(0, 0, 0, 0);
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.features-list {}
+
+.feature-part {}
+
+.feature-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em
+}
+
+.feature-desk {
+    color: var(--gray-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+/* =======================*/
+.jobs-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.jobs-type-list {}
+
+.job-part {}
+/* =======================*/
+.team-section{
+    background: var(--light-section-color);
+}
+.team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.actor-header{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.actor-role{
+    color: var(--gray-text-color);
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-list {}
+
+.team-part {}
+/* =======================*/
+.footer-section{
+    background: var(--dark-section-color);
+}
+.footer-cotact-list {}
+
+.footer-contact {}
+
+.address {
+    color: var(--total-white);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.address:hover{
+    color: var(--logo-blue-color);
+}
+.white-alpha {
+    color: var(--footer-alpha-colot);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.white-alpha:hover{
+    color: var(--logo-blue-color);
+}
+/* =========porfolio page==============*/
+
+.button-list {
+    background-color: var(--portfolio-button-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    font-family: inherit;
+    width: 125px;
+    height: 38px;
+    margin: 8px;
+    border-radius: 4px;
+}
+.button-list:hover{
+    color: var(--total-white);
+    background-color:var(--logo-blue-color);
+    cursor: pointer;
+}
+.project-list {}
+
+.project {
+    border: 1px solid #EEEEEE;
+
+}
+
+.project-header {}
+
+.project-desc {}
+
+/* =======================*/
